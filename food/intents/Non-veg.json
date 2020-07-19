@@ -1,0 +1,36 @@
+{
+  "id": "8957b84d-5800-4222-81bc-834432fd8b94",
+  "parentId": "6a704e27-758d-409c-9363-f35efe388716",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "Non-veg",
+  "auto": true,
+  "contexts": [
+    "North-Indian-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom-2.North-Indian-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "How about tandoori chicken and butter chicken with some naan?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "a7b262b4-7eec-4e49-bb73-31bf9e48b73f",
+  "parentId": "ef1b3ce2-1942-4d2a-a7fe-cd6cdef04ac3",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "biryani yes",
+  "auto": true,
+  "contexts": [
+    "biryaniyes-followup",
+    "riceyes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom.South-Indian-yes.riceyes-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Perfect then! Enjoy your dish! You can start over if you want to try out some other cuisine."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "6a704e27-758d-409c-9363-f35efe388716",
+  "parentId": "facefc7b-7851-4222-be79-d29493021fd9",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "North-Indian",
+  "auto": true,
+  "contexts": [
+    "Indian-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom-2",
+      "affectedContexts": [
+        {
+          "name": "North-Indian-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "That\u0027s Great! Do you want to eat non-vegetarian or vegetarian?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

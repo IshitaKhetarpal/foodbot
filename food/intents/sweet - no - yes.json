@@ -1,0 +1,36 @@
+{
+  "id": "8bd07f4d-2021-49a4-a0fa-3b9e425e008c",
+  "parentId": "598da83f-5055-43a9-b08f-870f1ad285df",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "sweet - no - yes",
+  "auto": true,
+  "contexts": [
+    "sweet-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.sweet-no.sweet-no-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Perfect then! Enjoy your dish! You can start over if you want to try out some other cuisine."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

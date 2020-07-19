@@ -1,0 +1,45 @@
+{
+  "id": "e0d67735-e51f-44d5-a92a-49ee00e28f73",
+  "parentId": "515c0539-6c8c-4e1e-98e8-2176d3f1b633",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "sweet - no - no - no",
+  "auto": true,
+  "contexts": [
+    "sweet-no-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.sweet-no.sweet-no-no.sweet-no-no-no",
+      "affectedContexts": [
+        {
+          "name": "sweet-no-no-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Some hot-hot jalebi or kheer? It\u0027s yum!",
+            "You can eat ice-cream like Chocolate, butterscotch, vanilla or Kulfi?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

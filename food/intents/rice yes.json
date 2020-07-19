@@ -1,0 +1,47 @@
+{
+  "id": "ef1b3ce2-1942-4d2a-a7fe-cd6cdef04ac3",
+  "parentId": "7f23e86b-e477-4b13-84a6-19b045572258",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "rice yes",
+  "auto": true,
+  "contexts": [
+    "South-Indian-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom.South-Indian-yes",
+      "affectedContexts": [
+        {
+          "name": "biryaniyes-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "riceyes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "How about BIRYANI?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

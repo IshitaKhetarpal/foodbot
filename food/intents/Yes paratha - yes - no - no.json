@@ -1,0 +1,39 @@
+{
+  "id": "cf11deaf-2039-43fd-9cf5-4339218e77e3",
+  "parentId": "b568ed41-3a61-47a7-be97-d225ebff3ad7",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "Yes paratha - yes - no - no",
+  "auto": true,
+  "contexts": [
+    "Yesparatha-yes-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom-2.North-Indian-yes.Yesparatha-yes.Yesparatha-yes-no.Yesparatha-yes-no-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "How about vegetable or daal paratha?",
+            "Meethi paratha or achaar ka paratha? How does this sound?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

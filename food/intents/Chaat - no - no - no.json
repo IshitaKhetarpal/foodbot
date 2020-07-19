@@ -1,0 +1,42 @@
+{
+  "id": "f8015231-dce0-4e15-a424-eb1b6e45301d",
+  "parentId": "d55d3b28-00e5-4b40-9e25-4f8565bdbd13",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "Chaat - no - no - no",
+  "auto": true,
+  "contexts": [
+    "Chaat-no-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom.Chaat-no.Chaat-no-no.Chaat-no-no-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Dahi puri"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Papdi chaat?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

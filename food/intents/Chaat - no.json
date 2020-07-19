@@ -1,0 +1,45 @@
+{
+  "id": "8f50b45d-0af0-4427-b69e-f365edd654e7",
+  "parentId": "057eb429-0daa-4a51-b674-fef4a6fb6d59",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "Chaat - no",
+  "auto": true,
+  "contexts": [
+    "Chaat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom.Chaat-no",
+      "affectedContexts": [
+        {
+          "name": "Chaat-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Um how about aloo-chaat?",
+            "How about dhai-chaat?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

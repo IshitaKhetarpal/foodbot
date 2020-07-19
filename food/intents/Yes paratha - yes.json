@@ -1,0 +1,42 @@
+{
+  "id": "00cebcfb-7b13-40ff-8e37-44407b0e8508",
+  "parentId": "ca6ccf15-508a-4dd3-9fcb-e58ad440e108",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "Yes paratha - yes",
+  "auto": true,
+  "contexts": [
+    "Yesparatha-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom-2.North-Indian-yes.Yesparatha-yes",
+      "affectedContexts": [
+        {
+          "name": "Yesparatha-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "How about one of these? Aloo paratha, gobi paratha or paneer paratha?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

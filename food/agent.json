@@ -1,0 +1,56 @@
+{
+  "description": "",
+  "language": "en",
+  "shortDescription": "",
+  "examples": "",
+  "linkToDocs": "",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "8bd07f4d-2021-49a4-a0fa-3b9e425e008c",
+      "c1acf46e-7ae2-4818-9114-704dcd1351d3",
+      "5c4f91f3-4f39-4c0a-b5e3-5019485f2817"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "providerId": "",
+      "authorizationUrl": "",
+      "tokenUrl": "",
+      "scopes": "",
+      "privacyPolicyUrl": "",
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "env": "",
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": false,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Almaty",
+  "webhook": {
+    "url": "",
+    "username": "",
+    "headers": {},
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": ""
+}

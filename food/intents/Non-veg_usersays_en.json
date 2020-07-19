@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a282dc5d-49d2-44c6-b728-a7a610ed766e",
+    "data": [
+      {
+        "text": "show me non-veg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc4acb07-9587-4598-b57e-f37d814299fe",
+    "data": [
+      {
+        "text": "i want non-vegetarian",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b7dd3423-9a0d-4914-81c8-801b1fd696d9",
+    "data": [
+      {
+        "text": "non-veg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ceaa59ac-6d13-4ee3-906c-34109d84d78d",
+    "data": [
+      {
+        "text": "Non-vegetarian",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0dea7c90-61ab-4c7c-97da-4523491a5684",
+    "data": [
+      {
+        "text": "I want non-veg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

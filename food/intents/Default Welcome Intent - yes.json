@@ -1,0 +1,36 @@
+{
+  "id": "f00e3a24-2a4b-44d5-bf91-9abc43da0494",
+  "parentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "Default Welcome Intent - yes",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Perfect!  Remember you can say No if you do not like the choice. I will suggest you more options! Let\u0027s start by asking this. What do you prefer to eat? Sweets or some Indian dish?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

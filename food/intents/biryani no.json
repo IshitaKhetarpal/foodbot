@@ -1,0 +1,50 @@
+{
+  "id": "27ba76ac-0c1e-44e6-86d1-6a43cc505c41",
+  "parentId": "ef1b3ce2-1942-4d2a-a7fe-cd6cdef04ac3",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "biryani no",
+  "auto": true,
+  "contexts": [
+    "biryaniyes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom.South-Indian-yes.biryaniyes-no",
+      "affectedContexts": [
+        {
+          "name": "biryaniyes-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "biryanino-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "rasam rice",
+            "bissibillibath"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

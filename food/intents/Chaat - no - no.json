@@ -1,0 +1,42 @@
+{
+  "id": "d55d3b28-00e5-4b40-9e25-4f8565bdbd13",
+  "parentId": "8f50b45d-0af0-4427-b69e-f365edd654e7",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "Chaat - no - no",
+  "auto": true,
+  "contexts": [
+    "Chaat-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom.Chaat-no.Chaat-no-no",
+      "affectedContexts": [
+        {
+          "name": "Chaat-no-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "masala puri is yum!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

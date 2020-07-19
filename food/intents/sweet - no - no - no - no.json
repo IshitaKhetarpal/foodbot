@@ -1,0 +1,39 @@
+{
+  "id": "c2503272-ab9a-489b-a210-e3be79b89074",
+  "parentId": "e0d67735-e51f-44d5-a92a-49ee00e28f73",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "sweet - no - no - no - no",
+  "auto": true,
+  "contexts": [
+    "sweet-no-no-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.sweet-no.sweet-no-no.sweet-no-no-no.sweet-no-no-no-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "How about Tiramisu or some tart?",
+            "How does a pudding sound? Caramel,chocolate, butterscotch or vanilla?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

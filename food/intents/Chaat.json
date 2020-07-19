@@ -1,0 +1,42 @@
+{
+  "id": "057eb429-0daa-4a51-b674-fef4a6fb6d59",
+  "parentId": "facefc7b-7851-4222-be79-d29493021fd9",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "Chaat",
+  "auto": true,
+  "contexts": [
+    "Indian-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom",
+      "affectedContexts": [
+        {
+          "name": "Chaat-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Alright! How about paani-puri or gol-gappe? Yum!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

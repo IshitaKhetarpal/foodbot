@@ -1,0 +1,39 @@
+{
+  "id": "ebc68627-d8d7-4835-a1fd-728770a53b5d",
+  "parentId": "00cebcfb-7b13-40ff-8e37-44407b0e8508",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "Yes paratha - yes - no-2",
+  "auto": true,
+  "contexts": [
+    "Yesparatha-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom-2.North-Indian-yes.Yesparatha-yes.Yesparatha-yes-no-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Okay how about Cheese paratha or Lachha paratha?",
+            "onion or veg?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

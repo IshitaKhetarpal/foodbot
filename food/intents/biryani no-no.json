@@ -1,0 +1,37 @@
+{
+  "id": "6ff6360b-6233-4ee5-b281-5200c1922418",
+  "parentId": "27ba76ac-0c1e-44e6-86d1-6a43cc505c41",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "biryani no-no",
+  "auto": true,
+  "contexts": [
+    "biryaniyes-no-followup",
+    "biryanino-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom.South-Indian-yes.biryaniyes-no.biryanino-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "sambar rice"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

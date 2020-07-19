@@ -1,0 +1,36 @@
+{
+  "id": "e5f1f86d-911c-4460-9b6f-11006e4417b0",
+  "parentId": "057eb429-0daa-4a51-b674-fef4a6fb6d59",
+  "rootParentId": "5ab53ddc-d34d-427a-992d-77344b63fdbb",
+  "name": "Chaat - yes",
+  "auto": true,
+  "contexts": [
+    "Chaat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Indian-custom.Chaat-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Perfect then! Enjoy your dish! You can start over if you want to try out some other cuisine."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
